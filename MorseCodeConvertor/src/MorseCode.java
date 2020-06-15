@@ -54,11 +54,12 @@ class Login extends JFrame{
 		});
 		
 		setTitle("Convertor");
-		setLayout(new FlowLayout());
+		setLayout(new FlowLayout(FlowLayout.CENTER,20,20));
 		setVisible(true);
 		setSize(400, 400);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		
 	}
 	
