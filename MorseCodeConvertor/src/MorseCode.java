@@ -50,7 +50,8 @@ class Login extends JFrame{
 		
 		b2.addActionListener(ae_morse_to_eng ->
 		{
-			
+			new M2E();
+			dispose();
 		});
 		
 		setTitle("Convertor");

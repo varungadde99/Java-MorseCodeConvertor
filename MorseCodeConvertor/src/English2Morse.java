@@ -2,9 +2,9 @@
 import javax.swing.*;
 
 //these imports are from awt- Abstract Windowing Toolkit
+/*import java.awt.event.*;
+import java.awt.FlowLayout;*/
 import java.awt.*;
-import java.awt.event.*;
-import java.awt.FlowLayout;
 
 
 public class English2Morse {
@@ -144,12 +144,6 @@ class E2M extends JFrame{
 	        // for space 
 	        return "/"; 
 	    } 
-	
-	
-	
-	
-	
-	
 	
     public static void center(JFrame frame) {
     	 
